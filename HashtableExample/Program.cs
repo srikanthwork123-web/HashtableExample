@@ -34,6 +34,14 @@ namespace HashtableExample
                 Console.WriteLine("the key is {0} and values is {1},-{2}", d.Key, d.Value,"Testing");
             }
             
+            foreach (DictionaryEntry d in ht)//DictionaryEntry maintain the key value format of data.
+            {
+                Console.WriteLine("the key is {0} and values is {1},-{2}", d.Key, d.Value, "Testing");
+            }
+            int a = 10;
+            string result =a.ToString();//converting data from one type to another type 
+            String result1 = Convert.ToString(a);
+
             //foreach (var d in ht)   //var is not handle the key value format of Data.
             //{
             //    Console.WriteLine("the key is {0} and values is {1},-{2}", d.Key, d.Value, "Testing");
